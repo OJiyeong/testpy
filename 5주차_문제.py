@@ -3,6 +3,9 @@
 
 print(words)
 print('대문자 인덱스 : ', end='')
+k = 0
 for i in words :
     if i >= 'A' and i <= 'Z' :
         print(words.index(i), end = ' ')
+        print(i + ' : ' + str(k))
+    k = k + 1
